@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.desconto-rosa {
+    
+    display: flex;
+    justify-content: center;
+
+    background-color: pink;
+
+}
+.texto-preto{
+    color: black;
+}
+
+.desconto-rosa{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+
+}
+
+.desconto-rosa-texto {
+    color: #FF3399 !important;
+}
+
+
+.barra-preta {
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+    color: white;
+}
+
+.links{
+    width: 600px;
+
+    display: flex;
+    justify-content: space-between;
+}
