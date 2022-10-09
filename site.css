@@ -1,12 +1,14 @@
-*{margin: 0;
-padding: 0;}
+* {
+    margin: 0;
+    padding: 0;
+}
 
 .bg-white {
     background-color: azure;
 }
 
 .bg-gray {
-    background-color:gray ;
+    background-color: gray;
 }
 
 .text-white {
@@ -18,10 +20,10 @@ padding: 0;}
 }
 
 .margin-footer-1 {
-    margin: 400px 0px 500px 0px;
+    margin: 200px 0px 0px 0px;
     padding-left: 90px;
     padding-bottom: 50px;
-    padding-top: 50px; 
+    padding-top: 50px;
 }
 
 .text-footer-1 {
@@ -29,19 +31,21 @@ padding: 0;}
     text-align: left;
     color: white;
     font-size: 25px;
+    font-family: 'Nunito', sans-serif;
 }
 
 .margin-footer-2 {
     margin: 400px 0px 500px 0px;
     padding-left: 90px;
     padding-bottom: 50px;
-    padding-top: 50px; 
+    padding-top: 50px;
 }
 
 .text-input {
     margin-left: 200 px;
     margin-top: 20 px;
     padding: 10px;
+    font-family: 'Nunito', sans-serif;
 }
 
 .submit {
@@ -51,21 +55,23 @@ padding: 0;}
     padding: 10px;
     border-color: rgb(0, 0, 0);
     border: 100 px;
+    font-family: 'Nunito', sans-serif;
 }
 
 .desconto-rosa {
-    
+
     display: flex;
     justify-content: center;
 
     background-color: pink;
 
 }
-.texto-preto{
+
+.texto-preto {
     color: black;
 }
 
-.desconto-rosa{
+.desconto-rosa {
     padding-top: 10px;
     padding-bottom: 10px;
     font-family: 'Nunito', sans-serif;
@@ -77,9 +83,22 @@ padding: 0;}
     color: #FF3399 !important;
 }
 
+.text-decoration {
+    text-decoration: none;
+    font-size: 15 px;
+}
+
+.texto-ultimo-div {
+    font-size: 25px;
+    text-align: center;
+    text-decoration: solid;
+    font-family: 'Nunito', sans-serif;
+    color: black;
+}
+
 
 .barra-preta {
-    height: 40px;
+    height: 60px;
 
     display: flex;
     justify-content: center;
@@ -87,11 +106,169 @@ padding: 0;}
 
     background-color: black;
     color: white;
+    font-family: 'Nunito', sans-serif;
 }
 
-.links{
+.links {
     width: 600px;
 
     display: flex;
     justify-content: space-between;
+}
+
+.corpo-do-site {
+    margin-top: 35px;
+    padding: 0 60px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagem-marisa {
+    height: 90px;
+}
+
+.corpo-do-site input {
+    width: 500px;
+    height: 30px;
+
+    padding-left: 10px;
+
+    font-family: 'Nunito', sans-serif;
+}
+
+.cadastro {
+    display: flex;
+    align-items: center;
+
+    font-family: 'Nunito', sans-serif;
+    color: gray;
+}
+
+.usuaria {
+    width: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.sacola {
+    display: flex;
+    align-items: center;
+
+    font-family: 'Nunito', sans-serif;
+
+}
+
+
+.minhas-compras {
+    width: 50px;
+    font-family: 'Nunito', sans-serif;
+    color: gray;
+}
+
+.imagem-principal {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.pedidos-com-disfarce {
+    margin-top: 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.frete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+}
+
+.frete-delegacia {
+    width: 60px;
+    margin-right: 20px;
+}
+
+.direitos {
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Nunito', sans-serif;
+
+    text-decoration: none;
+}
+
+.direitos-dela {
+    width: 60px;
+    margin-right: 20px;
+}
+
+.mais-uma-imagem {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.emergencia {
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.whatsapp {
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Nunito', sans-serif;
+
+    text-decoration: none;
+}
+
+
+
+
+.denuncia {
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+
+    text-decoration: none;
+}
+
+.denuncia-img {
+    width: 60px;
+    margin-right: 20px;
+}
+
+.whatsapp-img {
+    width: 60px;
+    margin-right: 20px;
+}
+
+.faca, .agressao, .abuso{
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem 0 1rem;
+    max-width: 70%;
+    height: auto;
+}
+
+
+
+.classe{
+    background-color: #FF3399;
+    padding: 1.5px ;
+    border-radius: 10%;
 }
