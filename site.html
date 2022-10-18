@@ -1,26 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="site.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Oswald:wght@700&display=swap"
+        rel="stylesheet">
+    <link>
+    <link rel="stylesheet" href="site.css">
 </head>
-        
 
-    
+
+
 <body>
     <header>
         <div class="banner-inicial">
             <div class="desconto-rosa">
-                <p class="texto-preto">Ganhe <p class="desconto-rosa-texto"> 10% OFF* </p> na primeira compra do site</p>
+                <p class="texto-preto">Ganhe </p>
+                <p class="desconto-rosa-texto"> 10% OFF* </p>
+                <p class="texto-preto"> na primeira compra do site</p>
             </div>
             <div class="barra-preta">
                 <div class="links">
+                    <div class="classe">
+                        <a class="universo text-white">ALERTA!</a>
+                    </div>
                     <a>Meus Pedidos</a>
                     <a>Nossas Lojas</a>
                     <a>Atendimento</a>
@@ -28,19 +36,80 @@
             </div>
         </div>
     </header>
-    <section>
-        <img class ="imagem-marisa" src="./assets/img1.png">
-        <input placeholder="o que você procura?">
+    <section class="corpo-do-site">
+        <img class="imagem-marisa" src="./assets/thumbnail_marina2.png">
+        <input placeholder="O que você procura?">
+        <div class="cadastro">
+            <img class="usuaria" src="./assets/usuario.jpg">
+            <p href="">Entre ou cadastre-se</p>
+        </div>
+        <div class="sacola">
+            <img class="minhas-compras" src="./assets/sacola.jpg">
+            <p>Minha sacola</p>
+        </div>
 
     </section>
-    <footer class ="bg-gray margin-footer-1">
-        <label class="text-footer-1">  <a>Receba ofertas com preços exclusivos </a> </label>
+    <span class="imagem-sem-disfarce">
+        <img class="imagem-principal" src="./assets/marisa_banana.jpg">
+    </span>
+    <span class="pedidos-com-disfarce">
+        <div class="frete">
+            <img class="frete-delegacia" src="./assets/frete.png" />
+            <a class="text-decoration"
+                href="https://www.google.com/maps/search/delegacias+pr%C3%B3ximas+a+mim/@-9.5902034,-35.7821939,14z/data=!3m1!4b1?hl=pt-BR" target="_blank">Delegacias
+                próximas</a>
+        </div>
+        <div class="direitos">
+            <img class="direitos-dela" src="./assets/direito.jpg" />
+            <a class="text-decoration"
+                href="https://nossacausa.com/conquistas-do-feminismo-no-brasil/?gclid=Cj0KCQjw4omaBhDqARIsADXULuXvaC2-_sfAbUvLMNhzZmCqHWFREoN8rGpzME0k2Kcuw9F-mwOB_r0aAhxtEALw_wcB" target="_blank">Seus
+                direitos</a>
+        </div>
+        <div class="denuncia">
+            <img class="denuncia-img" src="./assets/telefone.webp " />
+            <a class="text-decoration" href="https://www.gov.br/mdh/pt-br/ondh/servicos/grupo-vulneravel" target="_blank">Denuncias</a>
+        </div>
+        <div class="whatsapp">
+            <img class="whatsapp-img" src="./assets/whatsapp-640x640.png" />
+            <a class="text-decoration" href="https://api.whatsapp.com/send?phone=5561996565008" target="_blank">Denuncias pelo
+                whatsapp</a>
+        </div>
+    </span>
+
+    <span class="mais-tendencias">
+
+    </span>
+
+    <img class="mais-uma-imagem" src="./assets/imagem5.webp" />
+
+    <div class="emergencia">
+
+        <div class="faca">
+            <img class="com-faca" src="./assets/blusa.webp" />
+            <a class="texto-ultimo-div" href="">Parceiro armado</a>
+        </div>
+
+        <div class="agressao">
+            <img class="sem-arma" src="./assets/bolsa.webp" />
+            <a class="texto-ultimo-div" href="">Parceiro desarmado</a>
+        </div>
+
+        <div class="abuso">
+            <img class="abuso-sexual" src="./assets/short.gif" />
+            <a class="texto-ultimo-div" href="https://www.naosecale.ms.gov.br/violencia-sexual-2/#:~:text=As%20v%C3%ADtimas%20de%20viol%C3%AAncia%20sexual,de%20ocorr%C3%AAncia%20em%20uma%20delegacia." target="_blank">Sofri um abuso sexual</a>
+        </div>
+
+    </div>
+
+    <footer class="bg-gray margin-footer-1">
+        <label class="text-footer-1"> <a>Receba ofertas com preços exclusivos </a> </label>
         <input type="text" class="text-input" id="email" placeholder="Email">
         <input type="text" class="text-input" id="telefone" placeholder="Telefone">
         <buttun type="sumit" class="submit text-white"> Ok</buttun>
-    
-       </footer>
+
+    </footer>
 
 
 </body>
+
 </html>
